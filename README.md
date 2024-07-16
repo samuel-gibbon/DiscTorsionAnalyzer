@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://example.com/">
+  <a href="/home/sam/Dropbox/PROJECTS/DiscTorsionAnalyzer/LOGO.png">
     <img src="/home/sam/Dropbox/PROJECTS/DiscTorsionAnalyzer/LOGO.png" alt="DiscTorsionAnalyzer" width=500 height=200>
   </a>
 
@@ -8,10 +8,6 @@
   <p align="center">
     Software to automatically measure optic disc torsion in colour fundus photographs of the retina
     <br>
-    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
-    ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
-  </p>
 </p>
 
 
@@ -69,7 +65,7 @@ python main.py
 
 ## Status
 
-Software is currently working for colour fundus images of any size.
+Software is currently working for colour fundus images of any resolution and format (e.g., PNG, JPG).<br>
 
 ## Bugs and feature requests
 
