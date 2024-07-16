@@ -19,11 +19,9 @@
 
 - [Quick start](#quick-start)
 - [Status](#status)
-- [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Creators](#creators)
-- [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
 
 
@@ -73,24 +71,7 @@ python main.py
 
 Software is currently working for colour fundus images of any size.
 
-## What's included
-
-Some text
-
-```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
-```
-
 ## Bugs and feature requests
-
-## Reporting Issues and Feature Requests
 
 Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/samuel-gibbon/DiscTorsionAnalyzer/blob/main/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/samuel-gibbon/DiscTorsionAnalyzer/issues/new).
 
@@ -106,11 +87,7 @@ Editor preferences are available in the [editor config](https://reponame/blob/ma
 
 **Creator 1**
 
-- <https://github.com/usernamecreator1>
-
-## Thanks
-
-Some Text
+- <https://github.com/samuel-gibbon/DiscTorsionAnalyzer.git>
 
 ## Copyright and license
 
