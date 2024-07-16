@@ -74,7 +74,7 @@ python main.py
 ```
 ### Results
 
-One processed image is stored per input image, and numerical results are output in a **results.csv** file. Everything is written to **pathOut**. Example below.
+One processed image is stored per input image, and numerical results are output in a **results.csv** file. Everything is written to **pathOut**. Example below on an image from the publicly available IDRiD dataset.
 
 ![alt text](images/IDRiD_28_output.png)
 | Filename          | Ovality             | Torsion           |
@@ -105,6 +105,6 @@ Editor preferences are available in the [editor config](https://reponame/blob/ma
 
 ## Copyright and license
 
-Code and documentation copyright 2023-2024 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
+Code and documentation copyright 2023-2024 the authors. Code released under the [MIT License](https://github.com/samuel-gibbon/DiscTorsionAnalyzer/LICENSE.txt).
 
 Enjoy :metal:
