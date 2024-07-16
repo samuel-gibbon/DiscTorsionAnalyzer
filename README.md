@@ -3,7 +3,7 @@
     <img src="images/LOGO.png" alt="DiscTorsionAnalyzer" width=500 height=200>
   </a>
 
-  <h3 align="center">DiscTorsionAnalyzer</h3>
+  <h3 align="center">DiscTorsionAnalyzer 👁️‍🗨️ </h3>
 
   <p align="center">
     Software to automatically measure optic disc torsion in colour fundus photographs of the retina
@@ -13,8 +13,8 @@
 
 ## Table of contents
 
-- [Quick start](#quick-start)
 - [Description](#description)
+- [Quick start](#quick-start)
 - [Status](#status)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
@@ -29,7 +29,7 @@ This software uses deep learning-based segmentation to estimate en ellipse aroun
 
 Ovality is also measured, defined as the major axis length / minor axis length. A ovality value larger than 1.3 is generally considered **optic disc tilt**. <br>
 
-Manuscript currently in preparation. This measure is NOT CLINICALLY VALIDATED. For research purpose only. 
+Manuscript currently in preparation. This measure is currently **NOT CLINICALLY VALIDATED**. For research purpose only. 
 
 ## Quick start
 
@@ -102,5 +102,3 @@ Please read through our [contributing guidelines](https://github.com/samuel-gibb
 ## Copyright and license
 
 Code and documentation copyright 2023-2024 the authors. Code released under the [MIT License](https://github.com/samuel-gibbon/DiscTorsionAnalyzer/blob/main/LICENSE).
-
-Enjoy :metal:
