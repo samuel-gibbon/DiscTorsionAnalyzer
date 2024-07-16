@@ -105,6 +105,6 @@ Editor preferences are available in the [editor config](https://reponame/blob/ma
 
 ## Copyright and license
 
-Code and documentation copyright 2023-2024 the authors. Code released under the [MIT License](https://github.com/samuel-gibbon/DiscTorsionAnalyzer/LICENSE.txt).
+Code and documentation copyright 2023-2024 the authors. Code released under the [MIT License](https://github.com/samuel-gibbon/DiscTorsionAnalyzer/blob/main/LICENSE).
 
 Enjoy :metal:
