@@ -208,7 +208,7 @@ for i in range(len(files)):
         cv2.line(image_with_annotations, start_point_vertical, end_point_vertical, (255, 255, 0), 2) 
 
         # Ellipse ovality
-        ovality = round(ellipse[1][0] / ellipse[1][1], 2)
+        ovality = round(ellipse[1][1] / ellipse[1][0], 2)
         cv2.putText(image_with_annotations, f"Ovality: {ovality}", (image.shape[1] // 3, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 1)
 
         # Display the final image

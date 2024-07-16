@@ -14,12 +14,22 @@
 ## Table of contents
 
 - [Quick start](#quick-start)
+- [Description](#description)
 - [Status](#status)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Creators](#creators)
 - [Copyright and license](#copyright-and-license)
 
+## Description
+
+Optic disc torsion refers to the deviation of the longest axis of the optic disc from its perpendicular meridian. It is a measure of how much the optic disc has rotated from its normal orientation relative to the eye's vertical axis. Measuring optic disc torsion is important because it can provide valuable insights into various ocular and systemic conditions.<br>
+
+This software uses deep learning-based segmentation to estimate en ellipse around the optic and locate the fovea. It then rotates the image along the centrepoints of these two key structures and measures the angle between the vertical line centred on the optic disc and the major axis of the ellipse. The resulting value is either positive (indicating inferotemporal torsion) or negative (indicating supranasal torsion). <br>
+
+Ovality is also measured, defined as the major axis length / minor axis length. A ovality value larger than 1.3 is generally considered **optic disc tilt**. <br>
+
+Manuscript currently in preparation. This measure is NOT CLINICALLY VALIDATED. For research purpose only. 
 
 ## Quick start
 
@@ -62,6 +72,14 @@ You can also disable **writeImages** and/or **writeResults** if needed.
 ```bash
 python main.py
 ```
+### Results
+
+One processed image is stored per input image, and numerical results are output in a **results.csv** file. Everything is written to **pathOut**. Example below.
+
+![alt text](images/IDRiD_28_output.png)
+| Filename          | Ovality             | Torsion           |
+|-------------------|---------------------|-------------------|
+| IDRID_28.png      | 0.89                | 12.12             |
 
 ## Status
 
