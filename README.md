@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="LOGO.png">
-    <img src="LOGO.png" alt="DiscTorsionAnalyzer" width=500 height=200>
+  <a href="images/LOGO.png">
+    <img src="images/LOGO.png" alt="DiscTorsionAnalyzer" width=500 height=200>
   </a>
 
   <h3 align="center">DiscTorsionAnalyzer</h3>
