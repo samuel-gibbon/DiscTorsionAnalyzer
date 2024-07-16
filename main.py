@@ -23,8 +23,9 @@ pathOut = config['paths']['pathOut']
 
 # Set the preprocessing parameters
 writeResults = config.getboolean('options', 'writeResults')
+writeImages = config.getboolean('options', 'writeImages')
 
-# Display, set to 1 to display processed images in the notebook, else 0
+# Display processed images in notebook
 display = False
 
 # Sort the files in the image directory
@@ -232,7 +233,7 @@ for i in range(len(files)):
         image_with_annotations = cv2.cvtColor(image_with_annotations, cv2.COLOR_BGR2RGB)
 
         # Save the image in RGB format
-        if writeResults == True:
+        if writeImages == True:
             cv2.imwrite(pathOut2, image_with_annotations)
 
     except Exception as e:
