@@ -84,6 +84,7 @@ One processed image is stored per input image, and numerical results are output 
 ## Status
 
 Software is currently working for colour fundus images of any resolution and format (e.g., PNG, JPG).<br>
+Installation needs testing, specifically the requirements.txt file needs updating.
 
 ## Bugs and feature requests
 
