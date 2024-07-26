@@ -44,7 +44,7 @@ Manuscript currently in preparation. This measure is currently **NOT CLINICALLY 
 Step 1: create virtual environment
 ```bash
 conda update conda
-conda create -n DiscTorsionAnalyzer python=2.12 -y
+conda create -n DiscTorsionAnalyzer python=3.12 -y
 ```
 
 Step 2: activate virtual environment and clone repo
