@@ -20,6 +20,8 @@ config.read('config.ini')
 # Set paths
 pathIn = config['paths']['pathIn']
 pathOut = config['paths']['pathOut']
+if not os.path.exists(pathOut):
+        os.makedirs(pathOut)
 
 # Set the preprocessing parameters
 writeResults = config.getboolean('options', 'writeResults')
@@ -249,6 +251,4 @@ for i in range(len(files)):
 
 # Save results to a CSV file
 if writeResults == True:    
-    if not os.path.exists(pathOut):
-        os.makedirs(pathOut)
     results.to_csv(os.path.join(pathOut,'results.csv'), index=False)
