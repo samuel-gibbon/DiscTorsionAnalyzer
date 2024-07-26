@@ -249,4 +249,6 @@ for i in range(len(files)):
 
 # Save results to a CSV file
 if writeResults == True:    
-    results.to_csv('./results/results.csv', index=False)
+    if not os.path.exists(pathOut):
+        os.makedirs(pathOut)
+    results.to_csv(os.path.join(pathOut,'results.csv'), index=False)
