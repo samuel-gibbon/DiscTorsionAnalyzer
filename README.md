@@ -98,6 +98,8 @@ Please read through our [contributing guidelines](https://github.com/samuel-gibb
 
 **Creator 1**
 
+Created by Samuel Gibbon and Borja Marin
+
 - <https://github.com/samuel-gibbon/DiscTorsionAnalyzer.git>
 
 ## Copyright and license
